@@ -1,7 +1,7 @@
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21pt;
-    color: white;
+    color: black;
 }
 
 .contenedorH1{
@@ -11,10 +11,16 @@ h1{
     margin-top: 124px;
     margin-left: 25px;
     height: 148px;
-    background-color: blue;
+    background-color: transparent;
 }
 
 .fondo{
     height: 50px;
     width: 60px;
+}
+
+html{
+    background-image: url(./Imagenes/FondoSitioWeb.jpg);
+    background-size: 360px;
+    background-repeat: no-repeat;
 }
