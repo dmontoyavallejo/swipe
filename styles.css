@@ -1,0 +1,157 @@
+.unified-platform-section {
+    padding: 32px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f7f9fc;
+}
+
+.unified-platform-section .primary-button {
+    background-color:  #6962f7;
+    margin: 16 0;
+}
+
+.with-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container {
+    width: 100%;
+    max-width: 1144px;
+    padding: 16px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #000;;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 8px 0 0 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.25px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    background-color: #0a2540;
+    color: var(--text-light);
+    padding: 16px 16px;
+    transition: all 0.15s ease;
+}
+
+p {
+    font-size:18px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #6962f7;
+    font-weight: 500;
+    transition: color 0.25s ease;
+}
+
+h2 {
+    font-family: "Anek Telugu", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+    height: 120px;
+    width: 533px;
+}
+
+.subtitle, .subtitle2 {
+    color:  #6962f7;
+    font-family: "Anek Telugu", sans-serif;;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.two-column {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.two-column .col-right {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.two-column .col-left {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+:root {
+    --text-dark: #000;
+    --text-light: #fff;
+    --text-grey: #adbdcc;
+    --body-font: "Roboto", sans-serif;
+    --heading-font: "Anek Telugu", sans-serif;
+    --h1-size: 94px;
+    --h1-height: 108px;
+    --h2-size: 50px;
+    --h2-height: 75px;
+    --h3-size: 40px;
+    --h4-size: 32px;
+    --h5-size: 28px;
+    --h6-size: 22px;
+    --subtitle-size: 17px;
+    --subtitle-height: 26px;
+    --p-size: 18px;
+    --p-height: 26px;
+    --secondary-text-size: 14px;
+    --secondary-text-height: 18px;
+    --button-size: 16px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+    --standard-width: 1144px;
+    --purple-1: #6962f7;
+    --purple-2: #7000ff;
+    --blue-1: #00d4ff;
+    --primary-accent: #0a2540;
+    --primary-button-hover: #6d7a88;
+    --bg-white: #fff;
+    --bg-light: #f7f9fc;
+    --standard-border-radius: 20px;
+    --standard-box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    --primary-gradient: linear-gradient( 101.33deg, #08209a 0.76%, #6563ff 33.33%, #36c5f0 76.92%, #83e2ff 96.96% );
+}
+
