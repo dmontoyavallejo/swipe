@@ -1,0 +1,247 @@
+html,
+body {
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  background-color: aquamarine;
+}
+
+#gradient-canvas {
+    width: 200%;
+    height: 970px;
+    transform: rotate(-10deg);
+    position: absolute;
+    top: -600px;
+    left: -50%;
+    z-index: -1;
+    --gradient-color-1: #ef008f;
+    --gradient-color-2: #6ec3f4;
+    --gradient-color-3: #7038ff;
+    --gradient-color-4: #ffba27;
+}
+
+canvas {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 100%;
+    margin: 64px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1144px;
+    padding: 0 16px;
+    margin: 0 0 64px 0;
+    box-sizing: border-box;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.menu a {
+    color: #fff;
+    margin: 0 16px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Anek Telugu", "sans-serif";
+    font-weight: 600;
+    font-size: 94pt;
+    margin: 0;
+    width: 100%;
+    letter-spacing: -1px;
+    line-height: 108px;
+}
+
+a {
+    text-decoration: none;
+    color: #6962f7;
+    font-weight: 500;
+    transition: color 0.25s ease;
+}
+
+a:hover {
+    color:  #0a2540;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 16px;
+}
+
+.section-container {
+    width: 100%;
+    max-width: 1144px;
+}
+
+.hero-phone {
+        height: 628px;
+        transform: translate(32px, -32px);
+}
+
+.button-container {
+    display: flex;
+    margin: 16px 0;
+}
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+
+.primary-button {
+    font-family:  "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.25px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    background-color: #0a2540;
+    color: #fff;
+    padding: 8px, 16px;
+    transition: all 0.15s ease;
+}
+
+.secondary-button {
+    font-family: "Roboto", "sans-seri";
+    font-size: 16px;
+    letter-spacing: 1.25px;
+    font-weight: bold;
+    border-radius: 20px ;
+    border: none;
+    background-color: transparent;
+    color:  #0a2540;
+    transition: all 0.15s ease;
+}
+
+.with-icon > img {
+    transition: transform 0.25s ease;
+}
+
+.two-column > .col-left {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.two-column > .col-right {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.two-column {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 64px 0;
+    column-gap: 16px;
+    row-gap: 32px;
+}
+
+.unified-platform-section {
+    padding: 64px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f7f9fc;
+}
+
+.partners-grid img {
+    height: 60px;
+    place-self: center;
+}
+
+.hero .hero-phone-container {
+    height: 564px;
+    align-items: flex-end;
+}
+
+.with-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container button:nth-of-type(2) {
+    margin: 0 0 0 16px;
+    color: #7000ff;
+}
+
+
+
+.partners-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
